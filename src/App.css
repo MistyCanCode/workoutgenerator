@@ -1,38 +1,57 @@
 .App {
   text-align: center;
+  font-family: 'Dejavu Sans Mono', monospace;
+  background-color: rgb(150,212,212);
+  color:rgb(40,42,53);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: rgb(150,212,212);
+  color:rgb(40,42,53);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Form{
+  text-align: center;
+  align-items: center;
+  margin: 2% auto;
+  padding: 5px;
+  background-color: rgb(150,212,212);
+  color:hsl(230,13,18);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+.Buttons{
+  display: inline-flex;
+  justify-content:center;
+  align-items:center;
+  text-align: center;
+  padding: 7px;
+  margin: 5px auto;
+  width: 250px;
+  line-height: 1.5;
+  font-weight: bolder;
+  font-size: larger;
+  color: rgb(40,42,53);
+  background-color: rgb(150,212,212);
+}
+.Buttons:hover{
+  box-shadow: 0 12px 15px 0 rgba(0,0,0,0.25), 0 15px 50px 0 rgba(0,0,0,0.25);
+}
+
+hr{
+  width: 50%;
+  margin:auto;
+  height: 7px;
+  text-align: center;
+  border-style: groove;
+  background-color: rgb(40,42,53);
+}
+
+.Box{
+  display:flex;
+  justify-content: space-between;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  margin: 5% auto;
+  padding: 7px;
+  column-gap: 10px;
 }
